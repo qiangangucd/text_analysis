@@ -1,0 +1,8 @@
+
+In this week’s lecture you learnt about modules and packages, IPython and NumPy. In this week’s assessed exercises you will need to use NumPy to create and manipulate array, as well as use some of the basic NumPy functions.
+Each question asks you to write a function with a specific set of input arguments. The .py template defines the function name and inputs for each question, do not change these. Be sure you test your functions before you submit your code to make sure that they are outputting the correct answer.
+1. Write a function that takes n,a and b as inputs. The function should create a 1D array containing the numbers 0, 1, . . . , n − 1 (n elements), multiple every element by a, add b to the 1st element and return the result
+2. Write a function that takes n, m, a, b and val as inputs. The function should create a n × m matrix (2D array) of zeros, set the entry [a, b] equal to val and return this matrix as its output
+3. Write a function that takes an array X, and the numbers a and b as inputs, and returns all of the values in X that at greater than a and less than b.
+4. Write a function that takes x as an input, converts x from degrees to radians and calculates sin of the x
+All of your code should be written into the .py template. Save your filled .py file with the following name structure SurnameFirstname Week3.py (where Surname and Firstname should be replaced with your name) and upload it to Brightspace. Additionally, you must upload a PDF of your code. Create a PDF from Canopy by selecting File → Print, and print to PDF.
