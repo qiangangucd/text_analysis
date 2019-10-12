@@ -55,7 +55,6 @@ vectors = [dictionary.doc2bow(text) for text in stemmed_corpus]
 tfidf = TfidfModel(vectors)
 
 # Get TF-IDF weights
-
 weights = tfidf[vectors[0]]
 # Get terms from the dictionary and pair with weights
 
