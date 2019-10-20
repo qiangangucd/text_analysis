@@ -162,8 +162,9 @@ if __name__ == '__main__':
     #      'algorithm today weather nice go school absence machine learn course climb mountain picnic today go gym ' \
     #      'sport finish homework assign machine data mining course feel well exercise '
     # bigram_measures = nltk.collocations.QuadgramAssocMeasures()
-    # finder = QuadgramCollocationFinder.from_words(word_tokenize(text))
+    finder = QuadgramCollocationFinder.from_words(word_tokenize(text))
     # finder = TrigramCollocationFinder.from_words(countlist_word)
+    nltk.collocations.QuadgramCollocationFinder
 
     # for i in finder.score_ngrams(bigram_measures.pmi):
     #     print(i)
