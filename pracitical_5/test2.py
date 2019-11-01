@@ -1,3 +1,5 @@
+from sklearn.metrics.pairwise import euclidean_distances
+
 doc1='Find 3 short documents about which you might want to know their similarity.'
 doc2='Produce 5 variants on one of the documents and see how the cosine similarity changes.'
 doc3='Find a python package that computes cosine similarity and euclidean distance.'
@@ -22,6 +24,6 @@ doc_term_matrix = sparse_matrix.todense()
 df = pd.DataFrame(doc_term_matrix,
                   columns=count_vectorizer.get_feature_names(),
                   index=[doc1,doc2,doc3,doc1_01,doc1_02,doc1_03,doc1_04,doc1_05])
-from sklearn.metrics.pairwise import cosine_similarity
-sim=cosine_similarity(df,df)
-print(sim)
+# from sklearn.metrics.pairwise import cosine_similarity
+# sim=cosine_similarity(df,df)
+print(euclidean_distances(df,df))
